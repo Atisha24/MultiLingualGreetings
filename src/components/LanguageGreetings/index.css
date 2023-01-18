@@ -1,0 +1,42 @@
+.language-button-list {
+  margin: 8px;
+}
+
+.selected {
+  background-color: #db1c48;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-family: 'Roboto';
+}
+
+.unselected {
+  background-color: white;
+  color: #db1c48;
+  border-color: #db1c48;
+  border-width: 1px;
+  border-style: solid;
+  border: none;
+  border-radius: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-family: 'Roboto';
+}
+
+.image {
+  height: 120px;
+  width: 120px;
+}
+
+.language-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
